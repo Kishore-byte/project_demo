@@ -8,7 +8,7 @@ import { defineConfig, devices } from '@playwright/test';
  * Override it per environment with the BASE_URL env var.
  */
 export default defineConfig({
-  testDir: './src/tests',
+  testDir: './',
   // Match LevelUp AI generated specs placed under src/tests/generated/ too.
   testMatch: ['**/*.spec.ts'],
   timeout: 30_000,
